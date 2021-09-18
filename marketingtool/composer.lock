@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6cadd819a6415b190ae2704ced6e6c8b",
+    "content-hash": "9b384251ad97715ba04f3c132bb5f4ad",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -5753,6 +5753,67 @@
             "time": "2020-07-09T08:09:16+00:00"
         },
         {
+            "name": "khadegd/laravel-breeze-bootstrap",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/khadegd/laravel-breeze-bootstrap.git",
+                "reference": "14ab38352ac4b00f88dc2e363e375d737b61b3b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/khadegd/laravel-breeze-bootstrap/zipball/14ab38352ac4b00f88dc2e363e375d737b61b3b1",
+                "reference": "14ab38352ac4b00f88dc2e363e375d737b61b3b1",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/filesystem": "^8.0",
+                "illuminate/support": "^8.0",
+                "php": "^7.3|^8.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Breeze\\BreezeServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Breeze\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ganesh Khade",
+                    "email": "ganesh.khade@outlook.com"
+                },
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "Minimal Laravel authentication scaffolding with Blade and Bootstrap.",
+            "keywords": [
+                "auth",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/khadegd/larave-breeze-bootstrap/issues",
+                "source": "https://github.com/khadegd/laravel-breeze-bootstrap"
+            },
+            "time": "2021-04-14T00:13:16+00:00"
+        },
+        {
             "name": "laravel/sail",
             "version": "v1.10.1",
             "source": {
@@ -7805,7 +7866,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "khadegd/laravel-breeze-bootstrap": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
